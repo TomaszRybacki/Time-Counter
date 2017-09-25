@@ -1,0 +1,110 @@
+@media only screen and (min-width:600px) {
+    /* Kolory */
+    /*
+    pomarańczowy:       #ff652f;
+    zielony:            #14a76c;
+
+    czerwony-1:         hsl(0, 100%, 50%);
+    czerwony-2:         hsl(0, 100%, 39%);
+    czerwony-3:         hsl(0, 100%, 35%);
+    czerwony-4:         hsl(0, 100%, 24%);
+
+    */
+    /* Czcionki */
+    /*
+w3-large	Specifies a font size of 18 pixels
+w3-xlarge	Specifies a font size of 24 pixels
+w3-xxlarge	Specifies a font size of 32 pixels
+w3-xxxlarge	Specifies a font size of 48 pixels
+w3-jumbo	Specifies a font size of 64 pixels
+*/
+    #wrapper {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/End.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: "Oswald", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    #title {
+        padding-top: 20px;
+        flex: 1 1 100%;
+        position: relative;
+        text-align: center;
+        width: 600px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 1);
+        cursor: pointer;
+        z-index: 5;
+    }
+    #time {
+        flex: 1 1 100%;
+        height: 160px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 600px;
+        height: 170px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        z-index: 1;
+        pointer-events: none;
+    }
+    #title:hover + #time {
+        display: flex;
+
+    }
+    .description {
+        font-size: 24px;
+        flex: 1 1 25%;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+        box-sizing: border-box;
+    }
+    .armagedon {
+        font-size: 48px;
+        flex: 1 1 25%;
+        width: 100px;
+        height: 100px;
+        border: 2px solid hsl(0, 100%, 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px;
+        box-sizing: border-box;
+    }
+    /* *** STYLES *** */
+    h1 {
+        color: #14a76c;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 32px;
+        color: hsl(0, 100%, 39%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #days {
+        color: hsl(0, 100%, 50%);
+    }
+    #hours {
+        color: hsl(0, 100%, 50%);
+    }
+    #minutes {
+        color: hsl(0, 100%, 50%);
+    }
+    #seconds {
+        color: hsl(0, 100%, 50%);
+    }
+}

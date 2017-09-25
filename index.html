@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="Tomasz Rybacki">
+    <meta name="keywords" content="zegar">
+    <meta name="description" content="Strona odliczająca czas pozostały do końca świata.">
+
+    <title>Koniec świata</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main_pc.css">
+    <link rel="stylesheet" href="css/main_mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="back"></div>
+        <div id="clock">
+            <div id="title">
+                <h1>Do&nbsp;końca&nbsp;świata&nbsp;pozostało</h1>
+            </div>
+            <div class="animated" id="time">
+                <p><span class="description">dni</span> <span class="description">godzin</span> <span class="description">minut</span> <span class="description">sekund</span></p>
+                <p><span class="armagedon"><span class="animated" id="days">--</span></span>:
+                <span class="armagedon"><span class="animated" id="hours">--</span></span>:
+                <span class="armagedon"><span class="animated" id="minutes">--</span></span>:
+                <span class="armagedon"><span class="animated" id="seconds">--</span></span>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="scripts/jquery-3.2.0.min.js"></script>
+    <script src="scripts/code.js"></script>
+</body>
+
+</html>
+
