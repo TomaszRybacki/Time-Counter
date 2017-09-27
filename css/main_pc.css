@@ -97,14 +97,22 @@ w3-jumbo	Specifies a font size of 64 pixels
     }
     #days {
         color: hsl(0, 100%, 50%);
+        font-family: "digital-7";
     }
     #hours {
         color: hsl(0, 100%, 50%);
+        font-family: "digital-7";
     }
     #minutes {
         color: hsl(0, 100%, 50%);
+        font-family: "digital-7";
     }
     #seconds {
         color: hsl(0, 100%, 50%);
+        font-family: "digital-7";
+    }
+    @font-face {
+        font-family: "digital-7";
+        src: url(../digital-7.ttf);
     }
 }
